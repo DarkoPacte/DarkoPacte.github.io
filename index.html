@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wumpus</title>
+</head>
+
+<body>
+    <script>
+        const images = ["https://cdn.discordapp.com/attachments/866485272132976650/930575094563102731/001_HpennHP.jpg",
+        "https://cdn.discordapp.com/attachments/866485272132976650/930575276142919710/BlessRNG-1040045434666803202-20180912_221209-img1_-_copia.jpg"]
+        document.body.style.backgroundImage = `url('${images[Math.floor(Math.random() * images.length)]}')`
+        document.body.style.backgroundRepeat = "no-repeat";
+        document.body.style.backgroundSize = "100vw 100vh";
+    </script>
+</body>
+
+</html>
